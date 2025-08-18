@@ -4,6 +4,8 @@
 -- 2) Number of employees promoted in each gender group
 -- 3) Promotion rate within gender (# promoted ÷ # in gender)
 -- 4) Share of total company promotions coming from that gender (# promoted in gender ÷ total company promoted)
+-- This checks if gender differences exist in promotions
+
 
 WITH company_totals AS (
   SELECT 
