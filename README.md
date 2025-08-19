@@ -45,12 +45,13 @@ To frame the analysis, I focused on the following key metrics:
 - **Question answered**: Which departments see the highest promotion rates relative to their size?  
 - **Sample Output**:  
 
-| department        | num_employees | num_promoted | percent_promoted |
-|-------------------|---------------|--------------|------------------|
-| Sales & Marketing | 16840         | 1213         | 2.21%            |
-| Operations        | 11348         | 1023         | 1.87%            |
-| Technology        | 7138          | 768          | 1.40%            |
-
+| department   | dept_employees | dept_promotions | promotion_rate_within_dept | share_of_total_promotions |
+|--------------|----------------|----------------|----------------------------|----------------------------|
+| Technology   | 7138           | 768            | 10.76%                     | 16.45%                     |
+| Procurement  | 7138           | 688            | 9.64%                      | 14.74%                     |
+| Analytics    | 5352           | 512            | 9.57%                      | 10.97%                     |
+| Operations   | 11348          | 1023           | 9.01%                      | 21.92%                     |
+| Finance      | 2536           | 206            | 8.12%                      | 4.41%                      |
 ---
 
 ### 3. Promotion Rate by Gender
